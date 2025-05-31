@@ -8,10 +8,10 @@ sudo apt install -y nodejs npm git
 
 echo "Cloning panel repo..."
 REPO_URL="https://github.com/ATYWFRFG/chenuka.git"
-if [ ! -d v2ray-simple-panel ]; then
-  git clone "$REPO_URL" v2ray-simple-panel
+if [ ! -d chenuka ]; then
+  git clone "$REPO_URL" chenuka
 fi
-cd v2ray-simple-panel
+cd chenuka
 
 echo "Installing panel dependencies..."
 npm install
