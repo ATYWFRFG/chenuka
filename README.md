@@ -5,8 +5,8 @@ A minimal Node.js panel with user registration and login.
 ## Install & Run
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/ATYWFRFG/chenuka
+cd chenuka
 npm install
 cp .env.example .env
 # Edit .env and set JWT_SECRET
